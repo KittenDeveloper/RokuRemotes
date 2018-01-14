@@ -1,3 +1,3 @@
 # RokuRemotes
-A collection of roku remotes.
-If you are looking for a remote look for something in a 'release' folder or marked release
+A collection of roku remotes.<br/>
+If you are looking for a roku remote, you might be in the literal best place.
