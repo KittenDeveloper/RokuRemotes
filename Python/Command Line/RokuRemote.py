@@ -109,8 +109,3 @@ while 1:
 			sendCommand(rokuIP, "keypress/Backspace")
 #TODO: Implement all commands
 	else:print("Bad command")
-"""
-s=socket.socket(socket.AF_INET, socket.SOCK_STREAM); s.connect((rokus[chosenRoku], 8060));
-while 1:
-	s.send("POST /keypress/home HTTP/1.1\r\n\r\n"); time.sleep(2.5);
-"""
