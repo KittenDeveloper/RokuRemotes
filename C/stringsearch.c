@@ -1,6 +1,6 @@
 //Library for extracting from some of the html/xml bits
 #include <string.h>
-char* findWord(char *base, char *search)
+int findWord(char *base, char *search)
 {
 	int offset=0;
 	int currentPos;
@@ -8,7 +8,7 @@ char* findWord(char *base, char *search)
 	{
 		while(offset<=strlen(base))
 		{
-			offset=strchr(base+offset, search[0])-base
+			offset=strchr(base+offset, search[0])-base;
 			int i;
 			for(i=0; i<strlen(search)-1; i++)
 			{
